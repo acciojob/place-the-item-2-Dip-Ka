@@ -1,2 +1,16 @@
+/* styles.css */
+
+/* Apply Flexbox to the holder element */
+#holder {
+  display: flex;          /* Display children in a row */
+  justify-content: center; /* Center align children horizontally */
+  flex-wrap: wrap;         /* Wrap children onto the next row when necessary */
+}
+
+/* Style the individual items (assuming they have class "item") */
+.item {
+  /* Add any additional styling for individual items here */
+  /* For example, you can add padding or margin to create spacing between items */
+}
 
 /* Your CSS Code here. */
